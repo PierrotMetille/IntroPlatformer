@@ -259,7 +259,7 @@ PrefabInstance:
     - target: {fileID: 7301807785775707478, guid: d28e17ec9b8efe041983129524aed0a6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7301807785775707478, guid: d28e17ec9b8efe041983129524aed0a6,
         type: 3}
@@ -490,6 +490,11 @@ PrefabInstance:
     - target: {fileID: 4842208591352390, guid: 31269256cca389d4eaca33974334bd7e, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199359977168995586, guid: 31269256cca389d4eaca33974334bd7e,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212091394997432216, guid: 31269256cca389d4eaca33974334bd7e,
         type: 3}
@@ -1953,6 +1958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095001627418680472, guid: 9fab65f3a396eaf4fb2c796172ea03ca,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}

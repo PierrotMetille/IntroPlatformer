@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ProjectilesPickup
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":183.0,"y":39.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-233.0,"y":-155.0},"guid":"ce3ad256-090d-41e0-b18e-7a97c5993ebc","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-45.0,"y":-34.0},"guid":"733b8d3e-d6d2-47c0-b18b-97ad4b2129f1","$version":"A","$type":"Bolt.Literal","$id":"12"},{"kind":"Object","defaultValues":{"name":{"$content":"HasProjectiles","$type":"System.String"},"object":null},"position":{"x":68.0,"y":-169.0},"guid":"4d0463ed-1cd8-48ea-ace5-2fab6e2208de","$version":"A","$type":"Bolt.SetVariable","$id":"14"},{"defaultValues":{},"position":{"x":164.0,"y":-4.0},"guid":"c36e2460-721f-47b8-b5a6-f9415454d680","$version":"A","$type":"Bolt.Self","$id":"16"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":275.0,"y":-132.0},"guid":"a4f7d14d-db08-40e1-b6de-74b72be187de","$version":"A","$type":"Bolt.InvokeMember","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"target","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"f156ac52-304f-4398-98be-f82c2de0c4d3","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"assigned","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"2a8ceeec-9c17-46fa-b3af-cdcfd2419a04","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"object","destinationUnit":{"$ref":"14"},"destinationKey":"object","guid":"27334048-1775-4730-920a-7e6a79e15d43","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"7ef66204-37d0-4c1a-86d9-2c92394f5bcf","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"self","destinationUnit":{"$ref":"18"},"destinationKey":"%obj","guid":"c28ef592-81be-4f44-9d4a-df712d142985","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 2966be537f9331d49a32d0280f95e125, type: 2}
